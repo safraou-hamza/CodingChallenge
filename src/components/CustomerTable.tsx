@@ -201,6 +201,11 @@ const Select = styled.select`
   }
 `;
 
+const RowLength = styled.span`
+  margin-left: 10px;
+  margin-right: 10px;
+`;
+
 const CustomerTable: React.FC = () => {
   const [customers, setCustomers] = useState<Customer[]>([]);
   const [selectedCustomer, setSelectedCustomer] = useState<Customer | null>(null);
@@ -383,9 +388,9 @@ const CustomerTable: React.FC = () => {
                 </option>
               ))}
             </Select>
-            <span>
+            <RowLength>
               {table.getRowModel().rows.length} {t('of')} {table.getRowCount()} {t('Rows')}
-            </span>
+            </RowLength>
           </div>
           <div>
             <AdaptiveButton onClick={() => table.setPageIndex(0)} disabled={!table.getCanPreviousPage()}>

@@ -42,7 +42,6 @@
     "jest": "^27.4.3",
     "jest-resolve": "^27.4.2",
     "jest-watch-typeahead": "^1.0.0",
-    "lottie-react": "^2.4.0",
     "mini-css-extract-plugin": "^2.4.5",
     "postcss": "^8.4.4",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -75,7 +74,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "test:e2e": "NODE_ENV=test cypress run"
   },
   "eslintConfig": {
     "extends": [
@@ -96,11 +96,9 @@
     ]
   },
   "devDependencies": {
-    "@types/react-lottie": "^1.2.10",
     "@types/react-table": "^7.7.20",
     "cypress": "^13.13.0",
     "raw-loader": "^4.0.2",
-    "react-lottie": "^1.2.4",
     "react-table": "^7.8.0"
   },
   "jest": {
