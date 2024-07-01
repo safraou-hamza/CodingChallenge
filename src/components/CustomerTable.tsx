@@ -220,8 +220,10 @@ const CustomerTable: React.FC = () => {
   ]);
   const { t } = useTranslation();
 
+  
   const data = useMemo(() => customers, [customers]);
 
+  // prepare the table columns
   const columns = useMemo<ColumnDef<Customer>[]>(
     () => [
       {
@@ -290,11 +292,13 @@ const CustomerTable: React.FC = () => {
     },
   });
 
+  // open portfolio modal
   const handleViewPortfolios = (customer: Customer) => {
     setSelectedCustomer(customer);
     setIsModalOpen(true);
   };
 
+  // filter the rows
   const filteredRows = table.getRowModel().rows.filter(row =>
     Object.values(row.original).some(value =>
       value.name?.toLowerCase().includes(filterText.toLowerCase()) || ( typeof value === 'string' && value.toLowerCase().includes(filterText.toLowerCase()) )
@@ -302,11 +306,13 @@ const CustomerTable: React.FC = () => {
   );
 
   useEffect(() => {
+    // removes unwanted "," before object ending
     const cleanJSON = (jsonString: string) => {
       return jsonString.replace(/,\s*}/g, '}').replace(/,\s*]/g, ']');
     };
 
     try {
+      // clean and prepare the data
       const cleanedCustomerData = cleanJSON(customerData.toString());
       const parsedCustomerData: Customer[] = JSON.parse(cleanedCustomerData);
 
@@ -316,7 +322,7 @@ const CustomerTable: React.FC = () => {
       const cleanedRiskProfilesData = cleanJSON(RiskProfileData.toString());
       const parsedRiskProfilesData: RiskProfile[] = JSON.parse(cleanedRiskProfilesData);
 
-      // Combine customer data with portfolios
+      // Combine customer data with portfolios and riskProfiles
       const customers = parsedCustomerData.map(customer => {
         const portfolio = parsedPortfolio.find(portfolio => portfolio.portfolioId === customer.clientId);
         const riskProfileDetails = parsedRiskProfilesData.find(riskProfile => riskProfile.id === customer.riskProfile);
