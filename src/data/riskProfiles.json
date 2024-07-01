@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Interest Income"
+    },
+    {
+        "id": 2,
+        "name": "Income"
+    },
+    {
+        "id": 3,
+        "name": "Balanced"
+    },
+    {
+        "id": 4,
+        "name": "Growth"
+    },
+    {
+        "id": 5,
+        "name": "Capital Gain"
+    }
+]

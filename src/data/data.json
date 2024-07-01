@@ -1,0 +1,91 @@
+[
+  {
+    "clientId": "cli18874",
+    "firstName": "Sandra",
+    "lastName": "Schneider",
+    "annualIncome": 14500000,
+    "riskProfile": 3,
+    "residence": "Switzerland",
+    "currency": "CHF",
+    "clientType": "retail",
+  },
+  {
+    "clientId": "cli19655",
+    "firstName": "Julia",
+    "lastName": "Asper",
+    "annualIncome": 11500000,
+    "riskProfile": 4,
+    "residence": "Austria",
+    "currency": "CHF",
+    "clientType": "retail",
+  },
+  {
+    "clientId": "cli111098",
+    "firstName": "Ivan",
+    "lastName": "Lenzi",
+    "annualIncome": 18000000,
+    "riskProfile": 3,
+    "residence": "Germany",
+    "currency": "EUR",
+    "clientType": "retail",
+  },
+  {
+    "clientId": "cli27789",
+    "firstName": "Julia",
+    "lastName": "Asper",
+    "annualIncome": 19000000,
+    "riskProfile": 2,
+    "residence": "Switzerland",
+    "currency": "CHF",
+    "clientType": "retail",
+  },{
+    "clientId": "cli49451",
+    "firstName": "Laura",
+    "lastName": "Wilson",
+    "annualIncome": 11626986,
+    "riskProfile": 4,
+    "residence": "Germany",
+    "currency": "CHF",
+    "clientType": "retail"
+  },
+  {
+    "clientId": "cli18523",
+    "firstName": "Laura",
+    "lastName": "Smith",
+    "annualIncome": 19598220,
+    "riskProfile": 1,
+    "residence": "Austria",
+    "currency": "EUR",
+    "clientType": "retail"
+  },
+  {
+    "clientId": "cli91767",
+    "firstName": "Mark",
+    "lastName": "Smith",
+    "annualIncome": 19709078,
+    "riskProfile": 4,
+    "residence": "Austria",
+    "currency": "CHF",
+    "clientType": "retail"
+  },
+  {
+    "clientId": "cli70497",
+    "firstName": "John",
+    "lastName": "Davis",
+    "annualIncome": 14278163,
+    "riskProfile": 5,
+    "residence": "Switzerland",
+    "currency": "EUR",
+    "clientType": "private"
+  },
+  {
+    "clientId": "cli80662",
+    "firstName": "Paul",
+    "lastName": "Davis",
+    "annualIncome": 18768492,
+    "riskProfile": 5,
+    "residence": "Switzerland",
+    "currency": "CHF",
+    "clientType": "retail"
+  }
+]

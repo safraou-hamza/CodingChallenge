@@ -1,0 +1,97 @@
+[
+  {
+    "portfolioId": "cli18874",
+    "investments": [
+      {
+        "investmentType": "Stocks",
+        "amount": 250000,
+        "currency": "CHF"
+      },
+      {
+        "investmentType": "Bonds",
+        "amount": 150000,
+        "currency": "CHF"
+      }
+    ]
+  },
+  {
+    "portfolioId": "cli19655",
+    "investments": [
+      {
+        "investmentType": "Real Estate",
+        "amount": 500000,
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "portfolioId": "cli111098",
+    "investments": [
+      {
+        "investmentType": "Cash",
+        "amount": 100000,
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "portfolioId": "cli27789",
+    "investments": [
+      {
+        "investmentType": "Stocks",
+        "amount": 300000,
+        "currency": "CHF"
+      }
+    ]
+  },
+  {
+    "portfolioId": "cli49451",
+    "investments": [
+      {
+        "investmentType": "Real Estate",
+        "amount": 400000,
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "portfolioId": "cli18523",
+    "investments": [
+      {
+        "investmentType": "Bonds",
+        "amount": 200000,
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "portfolioId": "cli91767",
+    "investments": [
+      {
+        "investmentType": "Stocks",
+        "amount": 350000,
+        "currency": "CHF"
+      }
+    ]
+  },
+  {
+    "portfolioId": "cli70497",
+    "investments": [
+      {
+        "investmentType": "Real Estate",
+        "amount": 600000,
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "portfolioId": "cli80662",
+    "investments": [
+      {
+        "investmentType": "Bonds",
+        "amount": 250000,
+        "currency": "CHF"
+      }
+    ]
+  }
+]
