@@ -39,14 +39,13 @@ align-items: center;
 margin-top: 20px;`
 
 const TableContainer = styled.div`
-  padding: 1rem;
+  padding: 0.5rem;
 `;
 
 const Table = styled.table`
   width: 100%;
   border-collapse: collapse;
   border: 1px solid ${({ theme }) => theme.borderColor};
-  margin-top: 1rem;
 
   th,
   td {
@@ -183,7 +182,7 @@ const FilterInput = styled.input`
   border-radius: 4px;
   background-color: ${({ theme }) => theme.buttonBackground};
   color: ${({ theme }) => theme.buttonTextColor};
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
   font-size: 0.9rem;
   width: 10%;
   &:focus{
@@ -220,7 +219,7 @@ const CustomerTable: React.FC = () => {
   ]);
   const { t } = useTranslation();
 
-  
+
   const data = useMemo(() => customers, [customers]);
 
   // prepare the table columns
